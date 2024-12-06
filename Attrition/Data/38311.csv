@@ -1,0 +1,4 @@
+﻿EmpID,Age,DailyRate,DistanceFromHome,Education,EmployeeCount,EnvironmentSatisfaction,Gender,HourlyRate,JobInvolvement,JobLevel,JobSatisfaction,MaritalStatus,MonthlyIncome,MonthlyRate,NumCompaniesWorked,Over18,OverTime,PercentSalaryHike,PerformanceRating,RelationshipSatisfaction,StandardHours,TotalWorkingYears,WorkLifeBalance,YearsAtCompany,YearsInCurrentRole,YearsSinceLastPromotion,YearsWithCurrManager
+11222,45,1448,29,3,1,2,1,55,3,3,4,2,9380,14720,4,1,1,18,3,4,80,10,4,3,1,1,2
+11223,48,1221,7,3,1,3,1,96,3,2,1,3,5486,24795,4,1,0,11,3,1,80,15,3,2,2,2,2
+11224,34,1107,9,4,1,1,0,52,3,1,3,2,2742,3072,1,1,0,15,3,4,80,2,3,2,2,2,2

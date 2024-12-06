@@ -1,0 +1,30 @@
+
+{% extends 'a_base.html' %}
+{% block content %}
+<center>
+	<font size="" color="#ff0000"><strong>{{msg}}</strong></font>
+<h2>Feedback from companies</h2>
+<br>
+<table width="90%" border id="tab">
+<tr><th>*<th>Company Name<th>Email<th>File<th>
+{% for d1 in data %}
+
+<TR><TD>{{forloop.counter}}<TD>{{d1.name}}<TD>{{d1.email}}<TD>{{d1.file}}<TD>
+
+<form method="post" action="/viewdata/">
+{% csrf_token %}
+<input type="hidden" name="file" value="{{d1.file}}">
+	<input type="submit" value="View">
+</form>
+
+
+</td>
+</tr>
+</table>
+{% endfor %}
+
+</table>
+
+
+
+{% endblock %}

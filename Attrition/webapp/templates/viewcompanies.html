@@ -1,0 +1,23 @@
+
+{% extends 'a_base.html' %}
+{% block content %}
+<center>
+	<font size="" color="#ff0000"><strong>{{msg}}</strong></font>
+<h2>Registered  Companies</h2>
+<br>
+<table width="90%" border id="tab">
+<tr><th>*<th>Company Name<th>Email<th>Phone<th>City<th>
+{% for d1 in data %}
+
+<TR><TD>{{forloop.counter}}<TD>{{d1.name}}<TD>{{d1.email}}<TD>{{d1.phone}}<TD>{{d1.city}}<TD> {{d1.address}}
+
+</td>
+</tr>
+</table>
+{% endfor %}
+
+</table>
+
+
+
+{% endblock %}
